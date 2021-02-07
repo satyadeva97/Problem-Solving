@@ -15,6 +15,7 @@ public class SubsetSumCount {
     for (int i = 0; i <= arr.length; i++) {
       result[i][0] = 1;
     }
+    int i = Integer.parseInt("123");
     for (int i = 1; i <= arr.length; i++) {
       for (int j = 1; j <= sum; j++) {
         if (arr[i - 1] <= j) {
