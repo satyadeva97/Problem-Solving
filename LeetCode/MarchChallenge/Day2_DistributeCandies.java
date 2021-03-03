@@ -3,7 +3,7 @@ package MarchChallenge;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Day1_DistributeCandies {
+public class Day2_DistributeCandies {
   public int distributeCandies(int[] candyType) {
 
     Set<Integer> result = new HashSet<>();
