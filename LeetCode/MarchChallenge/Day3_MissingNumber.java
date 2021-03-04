@@ -6,7 +6,6 @@ public class Day3_MissingNumber {
     for (int i = 1; i <= nums.length; i++) {
       result ^= nums[i - 1] ^ i;
     }
-
     return result;
   }
 }
