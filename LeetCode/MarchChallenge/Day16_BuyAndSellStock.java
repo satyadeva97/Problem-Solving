@@ -1,4 +1,8 @@
-class Solution {
+package MarchChallenge;
+
+import java.util.Arrays;
+
+class Day16_BuyAndSellStock {
     public int maxProfit(int[] prices, int fee) {
         
         int[][] dp = new int[prices.length][2];
