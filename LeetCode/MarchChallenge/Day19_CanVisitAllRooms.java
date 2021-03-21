@@ -6,7 +6,6 @@ import java.util.Queue;
 
 public class Day19_CanVisitAllRooms {
   public boolean canVisitAllRooms(List<List<Integer>> rooms) {
-
     Queue<Integer> que = new LinkedList<Integer>();
     List<Integer> temp = rooms.get(0);
     for (int x: temp) {
